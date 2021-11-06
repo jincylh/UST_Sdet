@@ -1,0 +1,20 @@
+<p></p>
+<p>
+</p>
+
+<div class="input-group input-group-lg">
+    <span class="input-group-text" id="basic-addon1">Title</span>
+    <input type="text" #title (keyup)="0" class="form-control" placeholder="Title" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<p></p>
+<div class="input-group input-group-lg">
+    <span class="input-group-text" id="basic-addon1">Author</span>
+    <input type="text" #author (keyup)="0" class="form-control" placeholder="Author" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<p>{{title.value}}</p>
+<div class="container">
+    <div class="input-group input-group-lg">
+        <button class="btn btn-primary" (click)="addCourse(title.value,author.value)"> Add Course</button>
+    </div>
+</div>

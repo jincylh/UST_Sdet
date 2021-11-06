@@ -1,0 +1,50 @@
+ <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Course</th>
+      <th scope="col">Description</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let course of courses">
+      <!-- <th scope="row">{{course.id}}</th> -->
+      <td>{{course.id}}</td>
+      <td>{{course.title}}</td>
+      <td>{{course.desc}}</td>
+
+    </tr>
+
+  </tbody>
+</table> 
+
+<!-- <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{{courses.id}}</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table> -->

@@ -1,3 +1,13 @@
+# Setup of Angular
+    - npm i -g @angular/cli
+    - ng new <project-name>
+    - cd <project-name>
+    - npm start
+  
+  Create a component
+    - create a class and export
+    - Annotate with @component, containing selector and template
+    - Make entry into Module, in declarations
 # MyFirstApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
